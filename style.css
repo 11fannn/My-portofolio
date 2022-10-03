@@ -1,0 +1,61 @@
+.banner .jumbotron{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(_DSC0507.jpg);
+    background-size: cover;
+    border-radius: 0;
+    margin: 0;
+    color: aliceblue;
+    justify-content: center;
+    
+}
+.konten .jumbotron{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(214, 213, 212);
+}
+.konten .card{
+border-radius: 10px;
+transition: all 0.5s ease-in-out;
+}
+.konten .card:hover{
+    transform: scale(1.1);
+    
+}
+
+.card{
+   padding-inline:10;
+   border-radius: 2;
+}
+.image .jumbotron{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(wa\ logo.jpg) ;
+    background-size: cover;
+    margin: 0;
+    border-radius: 0,5px;
+    color: aliceblue;
+    justify-content: center;
+}
+.border{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(biodata.jpg) ;
+    border-radius: 10px;
+    
+}
+
+.progress{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1px;
+    height: 10vh;
+
+}
+
+.foto .jumbotron{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(backgrund.jpg) ;
+    background-size: cover;
+    margin: 0;
+    border-radius: 0,5px;
+    color: aliceblue;
+    justify-content: center;
+}
+
